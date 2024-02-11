@@ -1,0 +1,28 @@
+{
+  "name": "nuldark/aries",
+  "description": "A library providing a cryptography features.",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "crypto",
+    "cryptography",
+    "encryption",
+    "signature",
+    "signing"
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aries\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "8.2.16"
+    },
+    "sort-packages": true
+  }
+}

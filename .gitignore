@@ -1,0 +1,17 @@
+# PhpStorm
+/.idea/
+/.fleet/
+
+# VS Code
+.vscode/
+
+# Netbeans
+/nbproject/
+
+# Composer
+/auth.json
+/composer.phar
+/composer.lock
+/vendor/*
+
+# Caches
