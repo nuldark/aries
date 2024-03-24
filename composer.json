@@ -14,7 +14,8 @@
     "php": ">=8.2"
   },
   "require-dev": {
-    "charonlab/coding-standard": "1.2.x-dev"
+    "charonlab/coding-standard": "1.3.x-dev",
+    "charonlab/static-analysis": "dev-master"
   },
   "minimum-stability": "dev",
   "autoload": {
