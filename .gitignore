@@ -17,3 +17,4 @@
 # Caches
 .phpcs-cache
 .psalm-cache
+.phpunit-cache
