@@ -33,5 +33,16 @@
       "php": "8.2.16"
     },
     "sort-packages": true
+  },
+  "scripts": {
+    "checks": [
+      "@cs",
+      "@static-analysis",
+      "@test"
+    ],
+    "cs": "phpcs",
+    "cs-fix": "phpcbf -vpw",
+    "static-analysis": "psalm --stats --shepherd",
+    "test": "phpunit --colors=always"
   }
 }
