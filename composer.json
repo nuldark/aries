@@ -13,12 +13,19 @@
   "require": {
     "php": ">=8.2"
   },
+  "require-dev": {
+    "charonlab/coding-standard": "1.2.x-dev"
+  },
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "Aries\\": "src/"
     }
   },
   "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
     "optimize-autoloader": true,
     "platform": {
       "php": "8.2.16"
