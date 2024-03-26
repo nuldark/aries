@@ -11,9 +11,10 @@
 
 namespace Aries\Signature;
 
+use Aries\Algorithm;
 use Aries\Common\KeyInterface;
 
-interface SignatureAlgorithm
+interface SignatureAlgorithm extends Algorithm
 {
     /**
      * Generates a signature for the specified plaintext.
